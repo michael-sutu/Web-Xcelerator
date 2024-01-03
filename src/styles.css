@@ -548,6 +548,7 @@ p span {
         border: none;
         padding: 20px 0px 20px 20px;
         z-index: 100;
+        color: black;
     }
 
     .dropped-down {
@@ -599,6 +600,8 @@ p span {
         font-weight: bold;
         text-decoration: none;
         border-bottom: 3px solid #09B0D5;
+        position: relative;
+        top: -100px;
     }
 
     .contact-button {
@@ -625,10 +628,5 @@ p span {
     .offer h2 {
         position: relative;
         left: -15px;
-    }
-
-    .add-ons {
-        position: relative; 
-        left: -20px;
     }
 }
