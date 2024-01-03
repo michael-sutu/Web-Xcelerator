@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Xcelerator - Home</title>
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="stylesheet" href="./src/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Web Xcelerator</h1>
+        </div>
+        <div class="nav-links">
+            <button class="auth-btn">Sign Up</button>
+            <button class="auth-btn">Login</button>
+            <a class="contact-button" href="#contact">Contact</a>
+        </div>
+        <button class="dropdown-btn"><i class="fa-solid fa-bars"></i></button>
+        <div class="dropdown-content">
+            <a href="#">Sign Up</a>
+            <a href="#">Login</a>
+            <a href="#contact" onclick="dropdown()" class="contact-button">Contact</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Connecting <span>Your Business</span><br>Expanding The Web</h1>
+        <img src="./images/favicon.png">
+    </header>
+    <section class="what-we-do">
+        <div>
+            <h1>What We Do</h1>
+            <h2>The Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-point">
+                    <span class="description">1. Contact us with your business needs.</span>
+                </div>
+                <div class="timeline-point">
+                    <span class="description">2. Launch your website in less than a day using proven techniques.</span>
+                </div>
+                <div class="timeline-point">
+                    <span class="description">3. Opt for a custom website, delivered in a few days.</span>
+                </div>
+                <div class="timeline-point">
+                    <span class="description">4. Access a dashboard for live website data and stats post-launch.</span>
+                </div>
+                <div class="timeline-point">
+                    <span class="description">5. Enhance your site with profitable add-ons.</span>
+                </div>
+            </div>
+            <div class="offer">
+                <div>
+                    <h2>Our Add-Ons</h2>
+                    <div class="add-ons">
+                        <div>
+                            <i class="fa-solid fa-star"></i>
+                            <h3>Rating Management</h3>
+                            <p>Boost your Google ratings by filtering out people based on how they would review your place.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <h3>SEO Optimization</h3>
+                            <p>Better optimization on your website so that it will show up more when being searched for.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3>Email Marketing</h3>
+                            <p>Build a list of users emails to get easy volume when you want to announce information to your customers.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-comment"></i>
+                            <h3>Ai Chat</h3>
+                            <p>Have a custom Ai Chatbot built into your website to help any customer needs specific to your business.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-language"></i>
+                            <h3>Multilingual Support</h3>
+                            <p>More access for users who speak other languages by making it easy for them to understand your website.</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-circle-question"></i>
+                            <h3>Want Something Else?</h3>
+                            <p>No problem. Let us know and we can make it work.</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/tower.png">
+            </div>
+        </div>
+    </section>
+    <section class="customer-reviews">
+        <h1>Here's What <span id="darker">Other Businesses</span> Have To Say</h1>
+        <div class="review-container">
+            <div class="review">
+                <div class="star-rating">★★★★★</div>
+                <p>"Outstanding transformation of our website. Increased traffic and great customer feedback."</p>
+                <h3>Sophia Martinez</h3>
+            </div>
+            <div class="review">
+                <div class="star-rating">★★★★★</div>
+                <p>"Sleek design, user-friendly, and delivered ahead of schedule. Exceptional service."</p>
+                <h3>Aiden Lee</h3>
+            </div>
+            <div class="review">
+                <div class="star-rating">★★★★★</div>
+                <p>"Revamped our site with creative and engaging features. Knowledgeable team."</p>
+                <h3>Emma Thompson</h3>
+            </div>
+            <div class="review">
+                <div class="star-rating">★★★★★</div>
+                <p>"Custom website perfectly aligns with our brand. Beautiful and high-performing."</p>
+                <h3>Oliver Kim</h3>
+            </div>
+        </div>
+    </section>
+    <section class="contact-box" id="contact">
+        <img src="./images/contact.png">
+        <div>
+            <h2>Contact Us</h2>
+            <form action="./message" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Web Xcelerator</p>
+    </footer>
+    <script src="./src/script.js"></script>
+</body>
+</html>

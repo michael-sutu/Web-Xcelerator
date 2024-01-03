@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Message Received</title>
+    <style>
+        body {
+            font-family: 'Jost', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 700px;
+            padding: 30px 35px 50px 35px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.2em;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: 1px solid #09B0D5;
+            border-radius: 5px;
+            color: #09B0D5;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #09B0D5;
+            color: white;
+        }
+
+        i {
+            font-size: 8rem;
+            color: green;
+        }
+
+        h2 {
+            float: left;
+            position: relative; 
+            top: -35px;
+        }
+
+        h2 img {
+            height: 50px;
+            top: 12.5px;
+            position: relative;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2><img src="./images/favicon.png">Web Xcelerator</h2>
+        <div>
+            <i class="fa-regular fa-circle-check"></i>
+            <h1>Message Received!</h1>
+            <p>Thank you for reaching out to us. You should receive an email from us shortly.</p>
+            <a href="../">Return Home</a>
+        </div>
+    </div>
+</body>
+</html>
