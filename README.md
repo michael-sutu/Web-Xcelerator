@@ -43,7 +43,3 @@ Web Xcelerator is a streamlined web template designed specifically for web agenc
 ## Usage
 
 After starting the application, you can access the web template by navigating to `http://localhost:1000` in your web browser. To test the contact form and email functionality, fill out the form on the homepage and submit it.
-
----
-
-Feel free to adjust the README file according to any additional features your project might have or any other specific instructions you'd like to include.
