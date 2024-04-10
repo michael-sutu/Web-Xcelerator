@@ -9,8 +9,8 @@ console.log("Live at http://localhost:1000")
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'michael.webxcelerator@gmail.com',
-        pass: 'pqoz ajpz utrk drzk'
+        user: 'YOUR_WEBSITE_EMAIL',
+        pass: 'EMAIL_PASS'
     }
 })
 
@@ -30,8 +30,8 @@ app.post('/message', (req, res) => {
     const { name, email, message } = req.body
 
     const mailOptionsForYou = {
-        from: 'michael.webxcelerator@gmail.com',
-        to: 'michael.sutu@gmail.com',
+        from: 'YOUR_WEBSITE_EMAIL',
+        to: 'YOUR_PERSONAL_EMAIL',
         subject: 'New Message Received',
         text: `You have received a new message from ${name} (Email: ${email}):\n\n ${message}`
     }
